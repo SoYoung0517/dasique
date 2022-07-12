@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dasique</title>
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div id="wrap">
+
+        <section class="banner">
+            <div class="container">
+            <!-- header 영역 -->
+            <header class="header-area">
+                <div class="header-logo">
+                    <a href="#none" class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+
+                <!-- menu영역 -->
+                <nav>
+                    <ul class="menu">
+                        <li data-alt="tab1">
+                            <a href="#none">ABOUT US</a>
+                        </li>
+                        <li  data-alt="tab2">
+                            <a href="#none">SHOP ALL</a>
+                        </li>
+                        <li>
+                            <a href="#none">COLLECTION</a>
+                        </li>
+                        <li data-alt="tab3">
+                            <a href="#none">BOARD</a>
+                        </li>
+                        <li >
+                            <a href="#none">REVIEW</a>
+                        </li>
+                    </ul>
+
+                    <!-- icon-box영역 -->
+                    <ul class="icon-box">
+                        <li>
+                            <a href="#none">
+                                <img src="./img/search.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="./img/cart.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="./img/user.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- 햄버거 버튼 -->
+                <a href="#none" id="hamburger">
+                    <span></span>
+                    <span></span>
+                </a>
+            </header>
+
+            <!-- sub-menu-box영역 -->
+            <div class="sub-menu-box">
+                <ul id="tab1" class="sub-menu">
+                    <li>BRAND STORY</li>
+                    <li>LOCATION</li>
+                </ul>
+
+                <ul id="tab2" class="sub-menu">
+                    <li>ALL</li>
+                    <li>EYE</li>
+                    <li>LIP</li>
+                    <li>BLUSH</li>
+                    <li>BASE</li>
+                    <li>ETC</li>
+                    <li>TOOL</li>
+                </ul>
+                <ul id="tab3" class="sub-menu">
+                    <li>NOTICE</li>
+                    <li>Q&A</li>
+                    <li>PHOTO REVIEW</li>
+                    <li>REVIEW</li>
+                </ul>
+            </div>
+
+            <!-- 스와이퍼 -->
+            <div class="mask swiper mySwiper">
+                <div class="slider swiper-wrapper">
+                  <div class="in-slider fi swiper-slide"></div>
+                  <div class="in-slider se swiper-slide"></div>
+                  <div class="in-slider th swiper-slide"></div>
+                </div>
+
+                <!-- 슬라이드 컨텐트 영역 -->
+                <div class="slider-content-box">
+                    <ul class="arrow-btn">
+                        <li class="slide-prev swiper-button-prev"></li>
+                        <li class="slide-next swiper-button-next"></li>
+                    </ul>
+                </div>
+            </div>              
+            </div>
+        </section> <!-- //banner -->
+
+
+
+        <!-- new-product 영역 -->
+        <div class="main-product">
+            <div class="sec-1-left-bg"></div>
+
+        <section class="new-product">
+            <div class="contents">
+                <article class="new-txt">
+                    <p class="category">NEW</p>
+                    <p class="title">NEW Product</p>
+                    <p class="sub-title">
+                        고른 피부결을 연출해 주는 데이지크 세미매트 쿠션
+                    </p>
+                </article>
+
+                <ul class="item-list">
+                    <li class="item-card" id="new-item01">
+                        <div class="item-img">
+                            <img src="./img/sec-1-right01.jpg" alt="">
+                        </div>
+                        <div class="number-box">
+                            <span class="number">1</span>
+                        </div>
+                        <div class="card-txt">
+                            <p class="top">Air Blur Fit Cushion</p>
+                            <p class="under">에어 블러핏 쿠션</p>
+                        </div>
+                        <div class="options">
+                            <ul class="color-list">
+                                <li class="color-item01"></li>
+                                <li class="color-item02"></li>
+                                <li class="color-item03"></li>
+                                <li class="color-item04"></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="item-card" id="new-item02">
+                        <div class="item-img">
+                            <img src="./img/sec1-right03.jpg" alt="">
+                        </div>
+                        <div class="number-box">
+                            <span class="number">2</span>
+                        </div>
+                        <div class="card-txt">
+                            <p class="top">Air Blur Fit Cushion Refill</p>
+                            <p class="under">에어 블러핏 쿠션 리필</p>
+                        </div>
+                        <div class="options">
+                            <ul class="color-list">
+                                <li class="color-item01"></li>
+                                <li class="color-item02"></li>
+                                <li class="color-item03"></li>
+                                <li class="color-item04"></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section> <!-- //new-product -->
+    </div>
+
+        <!-- best 영역 -->
+        <section class="best-sec">
+            <dl class="best-title">
+                <dt class="best-top">BEST ITEM</dt>
+                <dd class="best-under">같은 꽃이어도 컬러와 향기가 모두 다른 한송이의 꽃처럼</dd>
+                <dd class="best-but">
+                    <div class="best-arrow"></div>
+                    <span>베스트 아이템 모아보기</span>
+                </dd>
+            </dl>
+
+
+            <!-- 베스트 제품영역 -->
+            <div class="main-best-product">
+
+            <div class="best-wrap">
+                <div class="best-product-photo">
+                    <img src="./img/best01.png" alt="" class="mpp-1">
+                    <img src="./img/b-best01.jpg" alt="" class="mpp-2">
+                </div>
+                <div class="product-info">
+                    <p>섀도우 팔레트<br>
+                        05 선셋 뮬리</p>
+                
+                    <div class="price">
+                        <span><del>34,000원</del> 25,900원</span>
+                    </div>
+                </div>
+            </div>
+            <div class="best-wrap">
+                <div class="best-product-photo">
+                    <img src="./img/best02.png" alt="" class="mpp-1">
+                    <img src="./img/b-best02.jpg" alt="" class="mpp-2">
+                </div>
+                <div class="product-info">
+                    <p>무드 글로우<br>
+                        립스틱</p>
+                
+                    <div class="price">
+                        <span><del>17,000원</del> 12,900원</span>
+                    </div>
+                </div>
+            </div>
+            <div class="best-wrap">
+                <div class="best-product-photo">
+                    <img src="./img/best03.png" alt="" class="mpp-1">
+                    <img src="./img/b-best03.jpg" alt="" class="mpp-2">
+                </div>
+                <div class="product-info">
+                    <p>슬림 젤<br>
+                        아이라이너</p>
+                
+                    <div class="price">
+                        <span><del>15,000원</del> 7,500원</span>
+                    </div>
+                </div>
+            </div>
+            <div class="best-wrap">
+                <div class="best-product-photo">
+                    <img src="./img/best04.png" alt="" class="mpp-1">
+                    <img src="./img/b-best04.jpg" alt="" class="mpp-2">
+                </div>
+                <div class="product-info">
+                    <p>섀도우 팔레트<br>
+                        01 슈가 브라우니</p>
+                
+                    <div class="price">
+                        <span><del>34,000원</del> 25,900원</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </section>
+
+
+        <!-- 컬렉션 영역 -->
+        <section id="clean" class="clean-sec">
+            <div class="clean_inner clear">
+                <div class="clean_imgs">
+                    <div class="clean_main" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="500"></div>
+                    <div class="clean_s1" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="500"></div>
+                    <div class="clean_s2" data-aos="fade-down" data-aos-duration="1500" data-aos-offset="500"></div>
+                </div>
+                <div class="clean_txt">
+                    <h2>Warm & Cool Tea Blending Collection</h2>
+                    <h3>#Blend it your own color</h3>
+                    <p>
+                        나만의 컬러로 부드럽게 블렌딩하는
+                        웜/쿨 티 블렌딩 컬렉션으로 완성해보세요.
+                    </p>
+                    <p>
+                        오직 웜/쿨톤을 위해 최적화된 컬러 구성으로
+                        누구나 쉽게 조합 가능한 섀도우 팔레트!
+                        <br>
+                        쌓을 수록 자연스럽게 어우러지는 
+                        서로 다른 세가지 타입의 매트 텍스처를 경험해보세요.
+                    </p>
+                    <a class="btn_arw" href="#">
+                        <span>자세히 보기</span>
+                        <svg viewBox="0 0 335 182">
+                            <polygon class="st0" points="293.5,101.7 228.7,166.4 243.8,181.5 334.3,91 243.8,0.5 228.7,15.6 293.5,80.4 0.7,80.4 0.7,101.7 "/>
+                        </svg>
+                    </a>
+                </div>
+                <!-- // clean_txt -->
+                <div class="clean_art1">
+                    <img src="./img/ani-left.png" alt="">
+                </div>
+                <div class="clean_art2">
+                    <img src="./img/ani-right.png" alt="">
+                </div>
+            </div><!-- // clean_inner -->
+        </section><!-- // clean -->
+
+
+        <!-- 컬렉션 제품 영역 -->
+        <section class="sec-c-product">
+
+            <div class="main-best-product">
+                <div class="best-wrap">
+                    <div class="best-product-photo">
+                        <img src="./img/new-product01.png" alt="" class="mpp-1">
+                        <img src="./img/b-new-product01.jpg" alt="" class="mpp-2">
+                    </div>
+                    <div class="product-info">
+                        <p>섀도우 팔레트<br>
+                            12 웜 블렌딩</p>
+                    
+                        <div class="price">
+                            <span><del>34,000원</del> 25,900원</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-wrap">
+                    <div class="best-product-photo">
+                        <img src="./img/new-product02.png" alt="" class="mpp-1">
+                        <img src="./img/b-new-product02.jpg" alt="" class="mpp-2">
+                    </div>
+                    <div class="product-info">
+                        <p>섀도우 팔레트<br>
+                            13 쿨 블렌딩</p>
+                    
+                        <div class="price">
+                            <span><del>34,000원</del> 25,900원</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-wrap">
+                    <div class="best-product-photo">
+                        <img src="./img/new-product03.png" alt="" class="mpp-1">
+                        <img src="./img/b-new-product03.jpg" alt="" class="mpp-2">
+                    </div>
+                    <div class="product-info">
+                        <p>블렌딩 무드 치크<br>
+                            01 웜 블렌딩</p>
+                    
+                        <div class="price">
+                            <span><del>24,000원</del> 18,000원</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-wrap">
+                    <div class="best-product-photo">
+                        <img src="./img/new-product04.png" alt="" class="mpp-1">
+                        <img src="./img/b-new-producth04.jpg" alt="" class="mpp-2">
+                    </div>
+                    <div class="product-info">
+                        <p>블렌딩 무드 치크<br>
+                            02 쿨 블렌딩</p>
+                    
+                        <div class="price">
+                            <span><del>24,000원</del> 18,000원</span>
+                        </div>
+                    </div>
+                </div>
+    
+            </div> <!-- //main-best-product -->
+        </section>
+
+
+        <!-- 두번째 스와이퍼 -->
+        <section class="section-vision s-section-vision" data-section-name="second" data-vision-swipe-index="0">
+            <div class="visionArea">
+                <div class="txtArea">
+                    <h2 class="title">Blooming your own beauty -with instagram</h2>
+                    <p class="mTxt">
+                        dasique_official
+                    </p>
+                    <p class="txt">
+                        당신만의 무드를 꽃피워줄 Bloomling - Mood 메이크업 브랜드 데이지크<br>
+                        데이지크가 당신의 숨겨진 아름다움을 찾아줄거에요.
+                    </p>
+                    <a href="https://www.instagram.com/dasique_official/" class="btnMore">GO 인스타그램</a>
+                </div>
+
+
+                <div class="swipeArea s-swipeArea">
+                    <div class="swiper-container s-swiper-container">
+                        <div class="swiper-wrapper s-swiper-wrapper">
+                            <a href="#" class="swiper-slide s-swiper-slide">
+                                <div class="imgBox">
+                                    <img src="./img/sns01.jpg" alt="" />
+                                </div>
+                            </a>
+                            <a href="#" class="swiper-slide s-swiper-slide">
+    
+                                <div class="imgBox">
+                                    <img src="./img/sns02.jpg" alt="" />
+                                </div>
+                            </a>
+                            <a href="#" class="swiper-slide s-swiper-slide">
+                                <div class="imgBox">
+                                    <img src="./img/sns03.jpg" alt="" />
+                                </div>
+                            </a>
+                            <a href="#" class="swiper-slide s-swiper-slide">
+                                <div class="imgBox">
+                                    <img src="./img/sns04.jpg" alt="" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-pagination s-swiper-pagination">
+                            <span class="swiper-pagination-fill"></span>
+                            <span class="notification"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swipe-button s-swipe-button-t">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="visionAreaBg"></div>
+        </section> 
+
+
+
+        <!-- 푸터 영역 -->
+        <section class="footer section">
+            <div class="c-footer">
+
+                <div class="footer-t">
+                    <div class="box inner-txt1">
+                        <h1 class="footer-logo">
+                            <a href="#none">
+                                <img src="./img/logo.png" alt="">
+                            </a>
+                        </h1>
+                        <p>
+                            COMPANY (주) 데이지크
+                            OWNER & ADMIN 연정미
+                            BUSINESS NO. 769-86-01723
+                            ONLINE-ORDER NO. 2020-서울강남-02057
+                            ADDRESS 서울특별시 강남구 테헤란로 447, 10층(삼성동, KB우준타워)
+                            TEL 02-6959-3877
+                            OVERSEAS SALES hlyou@byecom.co.kr
+                            MARKETING marketing@byecom.co.kr
+                        </p>
+                    </div>
+
+                    <div class="box inner-txt2">
+                        <h1><a href="#none">Customer Center</a></h1>
+                        <p><a href="#none">
+                            <span>02-6959-3877</span> 
+                        </a></p>
+                        <p><a href="#none">
+                            OPENING HOURS. AM10-PM5
+                            LUNCH BREAK. PM12:30-PM1:30
+                            SAT, SUN OFF</a></p>
+                    </div>
+                    <div class="box inner-txt3">
+                        <h1><a href="#none">Order Tracking</a></h1>
+                        <p><a href="#none">주문내역</a></p>
+                        <p><a href="#none">배송조회</a></p>
+                        
+                        <h1><a href="#none">Partnership</a></h1>
+                        <p><a href="#none">도매/제휴문의</a></p>
+                        <p><a href="#none">해외수출문의</a></p>
+                    </div>
+                    <div class="box inner-txt4">
+                        <h1><a href="#none">SNS</a></h1>
+                        <p><a href="#none">Instagram</a></p>
+                        <p><a href="#none">Facebook</a></p>
+                        <p><a href="#none">Youtube</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+    </div> <!-- //wrap -->
+</body>
+</html>
